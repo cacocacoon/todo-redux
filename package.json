@@ -4,7 +4,7 @@
   "description": "pratice",
   "main": "index.js",
   "scripts": {
-    "test": "none"
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build",
   },
   "repository": {
     "type": "git",
