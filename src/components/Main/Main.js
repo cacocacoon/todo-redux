@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import TodoHeaderContainer from '../../containers/TodoHeader/TodoHeader';
-import TodoListContainer from '../../containers/TodoList/TodoList';
+import TodoHeader from '../TodoHeader/TodoHeader';
+import TodoList from '../TodoList/TodoList';
 
 const Main = () => (
   <div>
-    <TodoHeaderContainer />
-    <TodoListContainer />
+    <TodoHeader />
+    <TodoList />
   </div>
 );
 
